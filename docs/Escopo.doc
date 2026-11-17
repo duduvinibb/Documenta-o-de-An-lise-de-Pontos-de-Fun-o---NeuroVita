@@ -1,1 +1,13 @@
+O escopo da contagem define quais funcionalidades serão incluídas na medição. 
+Ele responde à pergunta: “o que exatamente estou contando?”. 
+Um escopo mal definido gera contagens inconsistentes e difíceis de auditar.
 
+Tipo de contagem
+
+O primeiro passo é definir o tipo de contagem, que determina o escopo:
+
+| Tipo | O que mede|
+|--------|--------|
+| Projeto de desenvolvimento| Todas as funções entregues na primeira versão do software|
+| Projeto de melhoria| Funções incluídas, alteradas ou excluídas em uma aplicação existente, mais as funções de conversão de dados|
+| Aplicação| Todas as funções que a aplicação oferece hoje (o “tamanho instalado”)|
