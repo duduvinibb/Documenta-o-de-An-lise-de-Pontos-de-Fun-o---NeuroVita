@@ -1,1 +1,67 @@
+Ideia central
 
+Os pontos de função medem tamanho, não esforço. Para chegar ao esforço, você combina o tamanho com a produtividade da equipe:
+
+Esforço (horas) = Tamanho (PF) × Horas por PF
+
+O valor de horas por PF (também chamado de taxa de entrega ou produtividade inversa) é o que transforma a medida em prazo e custo.
+
+Passo a passo
+Conte os PF do escopo (desenvolvimento, melhoria ou aplicação).
+Escolha a produtividade (horas/PF) adequada ao contexto.
+Calcule o esforço total em horas ou homens-mês.
+Ajuste por fatores que afetam o esforço (complexidade, tecnologia, equipe, risco).
+Derive prazo e custo a partir do esforço.
+
+Exemplo: 200 PF × 10 h/PF = 2.000 horas. Com uma equipe de 4 pessoas trabalhando 160 h/mês cada (640 h/mês), 
+o prazo fica em cerca de 3,1 meses. Se o custo médio é R$ 100/hora, o custo estimado é R$ 200.000.
+
+Fontes e Características
+
+Histórico da própria: organização	Mais confiável, é o ideal
+Benchmarks externos (ISBSG, bases de mercado):	Úteis quando não há histórico
+Valores contratuais:	Comum no setor público, fixados em edital
+
+Os valores variam muito conforme tecnologia, tipo de sistema e maturidade da equipe. Em referências de mercado, é comum ver algo entre 6 e 20 horas por PF, mas não use um número genérico: calibre com dados reais da sua organização.
+
+Fatores que ajustam o esforço
+Tecnologia e plataforma (linguagem, frameworks, legado).
+Experiência da equipe e conhecimento do domínio.
+Qualidade dos requisitos e estabilidade do escopo.
+Requisitos não funcionais (segurança, desempenho, disponibilidade), que não geram PF mas consomem esforço.
+Tipo de contagem: melhoria costuma ter produtividade diferente de desenvolvimento novo.
+Reuso de componentes e ferramentas de automação.
+Esforço por fase do ciclo de vida
+
+O esforço total costuma ser distribuído entre as fases. A divisão varia por organização, mas uma distribuição ilustrativa é:
+
+Fases	e Participação aproximada
+Requisitos e análise:15% a 20%
+Projeto (design):	15% a 20%
+Construção (codificação):	30% a 40%
+Testes:	20% a 25%
+Implantação e gestão:	5% a 10%
+Estimativa em contratos (setor público)
+
+Em contratações baseadas no Roteiro de Métricas do SISP, é comum:
+
+Pagar por PF entregue (preço por PF), em vez de por hora.
+Aplicar fatores de ajuste por tipo de projeto: por exemplo, na melhoria, as funções alteradas ou excluídas podem ter percentuais de pagamento diferentes das incluídas.
+Contar funções de conversão de dados em projetos de melhoria.
+
+Confira sempre o que o edital e o manual adotado determinam.
+
+Cuidados
+
+Não use PF para medir atividades sem função de negócio (gerência de projeto, treinamento, infraestrutura). Estime esses itens separadamente.
+Estimativa é faixa, não número exato: trabalhe com cenários (otimista, provável, pessimista).
+Reestime quando o escopo mudar ou quando surgirem dados reais do projeto.
+Quanto mais cedo a estimativa (poucos requisitos), maior a incerteza. Para fases iniciais, existem métodos de estimativa antecipada, como o NESMA indicativo, 
+que estima o tamanho a partir apenas da quantidade de ALIs e AIEs.
+
+Erros comuns
+
+Tratar PF como esforço direto, sem calibrar a produtividade.
+Usar produtividade de outro contexto (outra tecnologia ou equipe) sem ajuste.
+Esquecer o esforço dos requisitos não funcionais.
+Não registrar os dados reais para realimentar a base histórica.
