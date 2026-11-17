@@ -6,5 +6,5 @@ embora possam influenciar o esforço.
 
 Os requisitos funcionais são decompostos em dois grupos:
 
-Dados: informações que o sistema precisa armazenar ou referenciar (viram ALI e AIE).
-Transações: o que o usuário faz com essas informações (viram EE, SE e CE).
+Dados: informações que o sistema precisa armazenar ou referenciar arquivos (ALI e AIE).
+Transações: o que o usuário faz com essas informações (EE, SE e CE).
