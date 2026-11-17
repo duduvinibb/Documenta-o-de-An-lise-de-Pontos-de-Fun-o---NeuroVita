@@ -21,5 +21,5 @@ Cada tela foi calculado de acordo com a complexidade das Funções de Dados (Arq
 | ALI    |    7    |    10    |    15    |
 | AIE    |    5    |    7    |    10    | 
 | EE     |    3    |    4    |    6    |
-| SE     |   4     |    5    |    6    |
+| SE     |   4     |    5    |    7    |
 | CE     |   3     |    4    |    6    |
