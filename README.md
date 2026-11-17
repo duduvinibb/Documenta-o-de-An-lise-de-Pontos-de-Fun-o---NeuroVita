@@ -12,3 +12,8 @@
 ## 2. Objetivo
 
 Representar a precificação de cálculos de cada tela formalizada e alinhamento de escopo para o desenvolvimento do NeuroVita.
+
+## 3 Tabela de Referência
+Cada tela foi calculado de acordo com a complexidade das Funções de Dados (Arquivos Lógicos Internos - ALI e Arquivos de Interface Externa - AIE) e Funções de Transação (Entradas Externas - EE, Saídas Externas - SE e Consultas Externas - CE)
+
+| Função | C.Baixa | C.Média | C.Alta |
