@@ -1,6 +1,7 @@
 Na Análise de Pontos de Função, o ponto de partida são os requisitos funcionais do usuário: 
 o que o software deve fazer para atender às necessidades de negócio. 
-A contagem mede só isso. Os requisitos não funcionais (desempenho, segurança, usabilidade, tecnologia) não entram diretamente nos pontos, 
+A contagem mede só isso. Os requisitos não funcionais (desempenho, segurança, usabilidade, tecnologia)
+não entram diretamente nos pontos, 
 embora possam influenciar o esforço.
 
 Os requisitos funcionais são decompostos em dois grupos:
