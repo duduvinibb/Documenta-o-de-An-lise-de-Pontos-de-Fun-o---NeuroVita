@@ -29,15 +29,18 @@ Fronteira: a divisão entre sistemas, que existe independentemente de qual parte
 
 Em uma melhoria, por exemplo, o escopo é só o que mudou, mas a fronteira continua sendo a da aplicação inteira.
 
-O que registrar na definição do escopo
+O que registrar na definição do escopo:
+
 Propósito da contagem: estimativa, medição de contrato, benchmark, etc.
 Tipo de contagem (desenvolvimento, melhoria ou aplicação).
 Fronteira da aplicação e sistemas vizinhos.
 Funcionalidades incluídas e excluídas.
 Documentação base: requisitos, protótipos, modelo de dados, versão.
 Método e versão do manual: IFPUG CPM, NESMA, Roteiro SISP.
-Premissas e restrições assumidas.
-Erros comuns
+Premissas e restrições assumidas
+
+Erros comuns: 
+
 Definir a fronteira por módulos técnicos ou equipes, e não pela visão do negócio.
 Misturar tipos de contagem (ex.: contar funções existentes dentro de um projeto de melhoria sem mudança).
 Não documentar o que ficou de fora do escopo.
