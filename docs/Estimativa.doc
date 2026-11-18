@@ -49,16 +49,6 @@ Pagar por PF entregue (preço por PF), em vez de por hora.
 Aplicar fatores de ajuste por tipo de projeto: por exemplo, na melhoria, as funções alteradas ou excluídas podem ter percentuais de pagamento diferentes das incluídas.
 Contar funções de conversão de dados em projetos de melhoria.
 
-Confira sempre o que o edital e o manual adotado determinam.
-
-Cuidados
-
-Não use PF para medir atividades sem função de negócio (gerência de projeto, treinamento, infraestrutura). Estime esses itens separadamente.
-Estimativa é faixa, não número exato: trabalhe com cenários (otimista, provável, pessimista).
-Reestime quando o escopo mudar ou quando surgirem dados reais do projeto.
-Quanto mais cedo a estimativa (poucos requisitos), maior a incerteza. Para fases iniciais, existem métodos de estimativa antecipada, como o NESMA indicativo, 
-que estima o tamanho a partir apenas da quantidade de ALIs e AIEs.
-
 Erros comuns
 
 Tratar PF como esforço direto, sem calibrar a produtividade.
