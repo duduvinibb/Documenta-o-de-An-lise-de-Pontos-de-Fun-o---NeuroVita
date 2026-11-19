@@ -1,5 +1,25 @@
-Onde as regras de negócio impactam a contagem
-Uma consulta que só recupera dados é CE; se houver cálculo, derivação ou atualização de ALI, passa a ser SE (ou EE, se a finalidade principal for manter dados).
+Onde as regras de negócio impactam a contagem:
+
+1. Classificação do processo elementar (EE, SE ou CE)
+
+A presença de certas lógicas de processamento define o tipo da transação:
+
+|Lógica de processamento |	EE |	SE |	CE |
+|--------|--------|--------|--------|
+|Validações	|Sim	| Sim	| Sim|
+|Cálculos ou fórmulas matemáticas	| Sim	| Obrigatório (ao menos uma lógica de SE) |Não|
+|Conversão de valores equivalentes|	Sim	|Sim |Sim|
+|Filtragem e seleção de dados	|Sim	|Sim	|Sim|
+|Análise de condições para definir qual se aplica	|Sim	|Sim|	Sim|
+|Atualização de ALI	|Sim|	Sim	|Não|
+|Referência a ALI ou AIE	|Sim	|Sim	|Sim|
+|Recuperação de dados	|Sim	|Sim	|Sim|
+|Derivação de dados	|Sim	|Sim	|Não|
+|Alteração do comportamento do sistema	|Sim	|Sim	|Não|
+|Preparação e apresentação de informação fora da fronteira	|Sim	|Sim	|Sim|
+|Aceitação de entrada de dados	|Sim	|Sim	|Sim|
+
+Uma consulta que só recupera dados é CE; se houver cálculo, derivação ou atualização de ALI, passa a ser SE (ou EE, se a finalidade principal for manter dados).|
 
 Complexidade
 
