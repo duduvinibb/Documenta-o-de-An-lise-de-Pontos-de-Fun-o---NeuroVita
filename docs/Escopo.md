@@ -9,7 +9,9 @@ O primeiro passo é definir o tipo de contagem, que determina o escopo:
 #Tipos e O que mede:
 
 Projeto de desenvolvimento: Todas as funções entregues na primeira versão do software
+
 Projeto de melhoria: Funções incluídas, alteradas ou excluídas em uma aplicação existente, mais as funções de conversão de dados
+
 Aplicação: Todas as funções que a aplicação oferece hoje (o “tamanho instalado”)
 
 Fronteira da aplicação
